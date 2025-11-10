@@ -94,7 +94,7 @@ model=CNNClassifier()
 if t.cuda.is_available():
   device=t.device("cuda")
   model.to(device)
-print("Name: SIBRAHIM FEDAH S")
+print("Name: IBRAHIM FEDAH S")
 print("Reg.no: 212223240056")
 summary(model,input_size=(1,28,28))
 criterion=nn.CrossEntropyLoss()
@@ -137,8 +137,8 @@ def test_model(model, test_loader):
       all_labels.extend(labels.cpu().numpy())
 
   accuracy = correct/total
-  print("Name: SUBASH R")
-  print("Reg.no: 212223230218")
+  print("Name: IBRAHIM FEDAH S")
+  print("Reg.no: 212223240056")
   print(f"Test Accuracy: {accuracy:.4f}")
 
   cm = confusion_matrix(all_labels, all_preds)
@@ -181,24 +181,27 @@ predict_image(model,image_index=80,dataset=test_dataset)
 
 ## Training Loss per Epoch
 
-<img width="315" height="105" alt="Screenshot 2025-09-10 092103" src="https://github.com/user-attachments/assets/28d990f4-e825-47b9-b7e3-4e7d91db9f22" />
+<img width="392" height="143" alt="ex 3 1" src="https://github.com/user-attachments/assets/e9d75182-4bf2-4efa-88f7-5e18276b9a56" />
+
 
 
 ## Confusion Matrix
 
+<img width="610" height="292" alt="ex 3 2" src="https://github.com/user-attachments/assets/5c0b9053-43c5-4427-8e61-53a9f40263fa" />
 
-<img width="508" height="214" alt="Screenshot 2025-09-10 092116" src="https://github.com/user-attachments/assets/a0247a6d-3f9a-4fc8-bdc9-eece2de03010" />
+
 
 
 ## Classification Report
 
+<img width="522" height="77" alt="ex 3 3" src="https://github.com/user-attachments/assets/40eecd17-d69d-42e9-94fe-63694ddce284" />
 
-<img width="217" height="50" alt="Screenshot 2025-09-10 092124" src="https://github.com/user-attachments/assets/c79454c1-97ae-42ea-b5ef-e98058938983" />
 
 
 ### New Sample Data Prediction
 
-<img width="322" height="114" alt="Screenshot 2025-09-10 092129" src="https://github.com/user-attachments/assets/4df597c5-1cad-4231-8937-3159942d5026" />
+<img width="615" height="177" alt="ex 3 4" src="https://github.com/user-attachments/assets/cba8d372-e0e3-46c0-a78e-7ff2d84766c7" />
+
 
 
 
